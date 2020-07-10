@@ -18,6 +18,7 @@ func main() {
 	var ptr *int = &i
 	fmt.Printf("ptr=%v\n",ptr)
 	fmt.Printf("ptr 的地址是:%v",&ptr)
+	fmt.Printf("prt 指向的值是:%v",*ptr)
 
 
 
